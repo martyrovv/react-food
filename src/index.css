@@ -1,0 +1,129 @@
+body {
+  background-color: #f5f5f0;
+  color: #4d4d4d;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  min-height: calc(100vh - 70px - 64px);
+  padding: 1.5rem 0;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  flex-grow: 1;
+}
+
+img, iframe {
+  max-width: 100%;
+}
+
+iframe {
+  width: 600px;
+  height: 350px;
+}
+
+
+.btn {
+  background-color: #f5f5f0; 
+  color: #4d4d4d; 
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  border: 2px solid #d4c5b0; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.card-action {
+  background-color: #f5f5f0; 
+  color: #4d4d4d; 
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  border: 2px solid #d4c5b0; 
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+
+.btn:hover {
+  background-color: #d4c5b0; 
+  color: white;
+  border-color: #b38b59; 
+}
+
+
+.btn:active, .btn:focus {
+  background-color: #d4c5b0 !important;
+  color: white !important;
+  border-color: #b38b59 !important;
+  outline: none;
+}
+
+.logo {
+  padding: 20px;
+  font-family: 'Georgia', serif;
+  color: rgb(85, 140, 72);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+nav ul li a {
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  color: rgb(85, 140, 72) !important; 
+  text-transform: uppercase;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+}
+
+
+nav ul li a:hover {
+  color: rgb(85, 140, 72) !important;
+  border-bottom: 2px solid rgb(85, 140, 72);
+}
+
+
+.nav-wrapper {
+  background-color: #f5f5f0;
+  
+}
+
+.page-footer {
+  background-color: #f5f5f0;
+}
+
+.container {
+  color: rgb(85, 140, 72);
+  font-family: 'Georgia', serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.repo-footer {
+  color: rgb(85, 140, 72);
+}
